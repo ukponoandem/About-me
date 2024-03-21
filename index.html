@@ -20,7 +20,7 @@
     color: green;
     text-decoration: none;
     padding: 20px;
-    font-size: 20px;
+    font-size: 12px;
     float: right;
     height: 0vh;
     
@@ -46,8 +46,8 @@ img.a{
 }
 .design{
      
-    height: 38vh;
-    font-size: 30px;
+    height: 40vh;
+    font-size: 20px;
     border: 5px solid white;
     border-radius: 30px;
 }
@@ -55,7 +55,7 @@ img.a{
 
 .touch{
 
-    height: 30vh ;
+    height: 40vh ;
     background-color:forestgreen;
     color:black;
 }
@@ -80,7 +80,7 @@ img.a{
 }
 .gmail{
     float: left;
-    color: black;
+    color: white;
 }
 .icons{
     padding: 10px;
@@ -95,6 +95,37 @@ footer{
     color: white;
     text-align: center;
 }
+button onclick{
+    color: white;
+}
+     
+    @media(max-width:1000px) {
+    .main{
+        
+        flex-direction: column;
+    }  
+  }
+       @media(max-width:1000px){
+        .bor{
+            
+          flex-direction: column;  
+        }
+       } 
+       @media(max-width:1000px) {
+        .design{
+            flex-direction: column;
+        }
+       } 
+       @media(max-width:1000px) {
+        .footer{
+            flex-direction: column;
+        }
+       } 
+       @media(max-width:1000px) {
+        .touch{
+            flex-direction: column;
+        }
+       } 
 
 
       </style>  
@@ -131,7 +162,7 @@ footer{
      <h3><a href="#">Contact Me</a></h3>
      
  <button type="button" onclick="document.getElementById ('demo') .innerHTML=
- '09161248397'">click</button>
+ '09161248397'" >click</button>
  <p id="demo"></p>
  </div>
 
